@@ -2,4 +2,4 @@
 
 Liferay Layout 4-2-1 (30/70)
 
-Created via Liferay Maven Archetype
+![4-2-1-columns-prvaci-ii-layouttpl](src/main/webapp/4-2-1-columns-prvaci-ii-layouttpl.png?raw=true)
