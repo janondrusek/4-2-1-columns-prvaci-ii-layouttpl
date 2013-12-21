@@ -2,20 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>eu.prvaci</groupId>
 	<artifactId>4-2-1-columns-prvaci-ii-layouttpl</artifactId>
 	<packaging>war</packaging>
 	<name>4-2-1 Columns (30/70)</name>
-	<version>1.0</version>
 
 	<parent>
 		<groupId>eu.prvaci</groupId>
 		<artifactId>layout-parent</artifactId>
-		<version>1.0</version>
+		<version>6.2.0-ga1</version>
 	</parent>
 
 	<properties>
-		<liferay.auto.deploy.dir>/home/vega/Liferay/liferay-portal-6.1.2-ce-ga3/deploy/</liferay.auto.deploy.dir>
+		<liferay.auto.deploy.dir>/home/vega/Liferay/liferay-portal-6.2.0-ce-ga1/deploy/</liferay.auto.deploy.dir>
 	</properties>
 
+	<build>
+		<finalName>${project.artifactId}</finalName>
+	</build>
 </project>
